@@ -27,10 +27,10 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void IfNotDivisibleByThreeOrFiveShouldReturnNull() {
+    public void IfNotDivisibleByThreeOrFiveShouldReturnEmptyString() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(1);
-        assertNull(actual);
+        assertEquals("", actual);
     }
 
 }
