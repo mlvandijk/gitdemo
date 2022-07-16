@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 public class FizzBuzzTest {
 
@@ -25,5 +26,11 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", actual);
     }
 
+    @Test
+    public void IfNotDivisibleByThreeOrFiveShouldReturnNull() {
+        FizzBuzz fb = new FizzBuzz();
+        String actual = fb.fizzBuzz(1);
+        assertNull(actual);
+    }
 
 }
