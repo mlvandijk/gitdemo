@@ -5,16 +5,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
 
     @Test
-    public void ThreeShouldReturnFizz() {
+    public void DivisibleByThreeShouldReturnFizz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(3);
         assertEquals("Fizz", actual);
     }
 
     @Test
-    public void FiveShouldReturnBuzz() {
+    public void DivisibleByFiveShouldReturnBuzz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(3);
         assertEquals("Fizz", actual);
     }
+
+
 }
