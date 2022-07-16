@@ -18,5 +18,12 @@ public class FizzBuzzTest {
         assertEquals("Fizz", actual);
     }
 
+    @Test
+    public void DivisibleByThreeAndFiveShouldReturnFizzBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String actual = fb.fizzBuzz(15);
+        assertEquals("FizzBuzz", actual);
+    }
+
 
 }
