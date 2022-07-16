@@ -10,4 +10,11 @@ public class FizzBuzzTest {
         String actual = fb.fizzBuzz(3);
         assertEquals("Fizz", actual);
     }
+
+    @Test
+    public void FiveShouldReturnBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String actual = fb.fizzBuzz(3);
+        assertEquals("Fizz", actual);
+    }
 }
