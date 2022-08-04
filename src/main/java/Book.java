@@ -6,4 +6,8 @@ public record Book(String title,
                    String publisher,
                    String isbn,
                    int pages) {
+
+    public boolean containsAuthor(String name) {
+        return author.contains(name);
+    }
 }
