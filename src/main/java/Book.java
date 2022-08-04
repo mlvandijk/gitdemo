@@ -1,13 +1,13 @@
 import java.util.List;
 
 public record Book(String title,
-                   List<String> author,
+                   List<String> authors,
                    String publisher,
                    String isbn,
                    int pages,
                    boolean illustrated) {
 
-    public boolean containsAuthor(String name) {
-        return author.contains(name);
+    public boolean containsAuthor(String author) {
+        return authors.contains(author);
     }
 }
