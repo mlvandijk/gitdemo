@@ -1,5 +1,21 @@
 # Small demo project to demo Git workflows
 
+
+## Resolve merge conflicts
+
+When conflicting changes happen on different branches, you'll have to resolve those merge conflicts when trying to merge these changes.
+
+You can use the branches `feature` and `demo` for practice. 
+
+Checkout branch `feature` and select Branch `demo` | merge `demo` into `feature`.
+
+This will open up the Git merge dialog. Manually select which changes to apply / discard, use the magic wand or AI Assistant to resolve the conflicts.
+
+### Links
+* YouTube link: https://www.youtube.com/watch?v=WgipWkaU2MM
+* IntelliJ IDEA documentation: https://www.jetbrains.com/help/idea/resolve-conflicts.html
+
+
 ## Git interactive rebase
 
 Git interactive rebase allows you to change individual commits, squash commits together, drop commits or change the order of the commits.
