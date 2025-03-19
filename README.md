@@ -31,7 +31,6 @@ In the Git history, identify the commit from where you want to clean up your his
 
 Right-click on that commit and select "Interactively Rebase from Here". This will open a popup window with a list of the commits that were done on top of the selected commit.
 
-When we select a commit, we can see the details of that commit, just as we can in the regular Git log window.
 Notice there are several options at the top of this popup, that become active when we select one or more of the commits:
 
 * **Reword** allows us to change the commit message of a specific commit.
